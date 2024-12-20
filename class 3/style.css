@@ -1,0 +1,21 @@
+.heading-1 {
+    color: blue;
+}
+
+.heading-2 {
+    color: brown;
+}
+
+input::placeholder{
+    color: blue;
+}
+
+button{
+    text-align: right;
+    background-color: blue;
+    color: aliceblue;
+    padding:12px 42px ;
+    
+    ;
+
+}

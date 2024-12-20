@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar .lists ul{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    background-color: black;
+    height: 55px;
+    padding-top: 16px;
+}
+
+#navbar .lists ul li{
+    list-style: none;
+    font-family: Arial;
+    font-weight: 900;
+    font-size: large;
+    color: white;
+}
+
+#navbar .lists ul li:hover{
+    color: yellow;
+}
+
+
+
+#navbar .lists .logo{
+    margin-top: -45px;
+    margin-left: 10px;
+    color: aliceblue;
+    font-family: Arial;
+    color: yellow;
+}
+
+#navbar button{
+padding: 10px 20px;
+position: absolute;
+right: 16px;
+background-color: rgb(225, 245, 9);
+border: none;
+border-radius: 7px;
+margin-top: -37px;
+font-weight: bold;
+font-size: large;
+}
+
+#navbar button:hover{
+   background-color: rgb(163, 170, 43);
+    color: white;
+}
+
+
+video{
+    margin-top: 20px;
+    margin-left: 20px;
+}
