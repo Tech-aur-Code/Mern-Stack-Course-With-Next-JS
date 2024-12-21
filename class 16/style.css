@@ -1,0 +1,149 @@
+/* Universal Selector */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar */
+
+#home {
+  background-color: black;
+  height: 100vh;
+  width: cover;
+}
+
+#home nav ul {
+  padding-top: 30px;
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+
+#home nav ul li {
+  list-style: none;
+}
+
+#home nav ul li a {
+  font-family: Arial;
+  font-weight: 900;
+  font-size: medium;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+/* hover effect */
+#home nav ul li a:hover {
+  color: yellow;
+  transition: 1s ease;
+}
+
+/* Nav Logo */
+
+#home .logo h1 {
+  color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  margin-top: -29px;
+  font-size: 30px;
+}
+
+#home .icon-whatsapp i {
+  color: greenyellow;
+  font-size: 35px;
+  position: absolute;
+  right: 190px;
+  margin-top: -33px;
+}
+
+#home .no h3 {
+  color: white;
+  font-family: Arial;
+  position: absolute;
+  right: 70px;
+  margin-top: -25px;
+}
+
+/* Main Image */
+
+#home .main-img img {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  right: 200px;
+  margin-top: 120px;
+  border: 2px solid rgb(9, 104, 237);
+  border-radius: 50%;
+  box-shadow: 2px 1px 2px 6px rgb(9, 104, 237);
+  padding: 0%;
+}
+
+#home .main-txt h1 {
+  color: rgb(9, 104, 237);
+  margin-top: 200px;
+  margin-left: 180px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 35px;
+}
+
+#home .main-txt h2 {
+  color: yellow;
+  margin-top: 20px;
+  margin-left: 180px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 26px;
+}
+
+#home .main-txt h3 {
+  color: white;
+  margin-top: 20px;
+  margin-left: 180px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#home .main-txt, .icons-social{
+    margin-left: 174px;
+    gap: 45px;
+   
+}
+
+#home .main-txt .icons-social i {
+  color: white;
+  margin-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  border-radius: 50px;
+  border: 2px solid rgb(9, 104, 237);
+  padding: 10px;
+  margin-left: 7px;
+  margin-top: 17px;
+}
+#home .main-txt .icons-social i:hover{
+
+  background-color:rgb(9, 104, 237) ;
+  transition: 1s ease;
+}
+
+#home .main-txt .main-btn{
+    margin-top: 30px;
+    margin-left: 159px;
+    gap: 20px;
+    
+}
+
+#home .main-txt .main-btn a{
+    color: rgb(9, 104, 237);
+    border: 2px solid  rgb(9, 104, 237);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+#home .main-txt .main-btn a:hover{
+    background-color: rgb(9, 104, 237);
+    color: aliceblue;
+    transition: 1s ease;
+}
