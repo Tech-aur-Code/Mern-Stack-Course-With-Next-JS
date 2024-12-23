@@ -9,7 +9,7 @@
 
 #home {
   background-color: black;
-  height: 100vh;
+  height: 90vh;
   width: cover;
 }
 
@@ -147,3 +147,94 @@
     color: aliceblue;
     transition: 1s ease;
 }
+
+/* Contact US */
+
+#contact{
+  background-color: black;
+  height: 90vh;
+  width: cover;
+  padding-top: 150px;
+  }
+
+  #contact h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: yellow;
+  }
+
+
+#contact .contact-data {
+  border-radius: 7px;
+  background-color:white;
+  width: 700px;
+  margin: auto;
+  height: 370px;
+  margin-top: 100px;
+  
+}
+
+#contact .contact-data .left {
+  padding-left: 40px;
+  padding-top: 40px;
+  border: 2px solid black;
+  width: 220px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  height: 400px;
+  
+}
+#contact .contact-data .left i{
+  font-size: 30px;
+  margin-left: 40px;
+  padding: 7px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+#contact .contact-data .left h3{
+   color: black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 900;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+#contact .contact-data .right{
+  position: absolute;
+  right: 450px;
+  margin-top: 5px;
+}
+
+#contact .contact-data .right input{
+  margin-top: 10px;
+  height: 35px;
+  width: 350px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid black;
+  
+}
+
+#contact .contact-data .right h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 10px;
+}
+
+#contact .contact-data .right button{
+  padding: 10px 70px;
+  background-color: blue;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  margin-left: 95px;
+  
+}
+
