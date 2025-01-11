@@ -1,24 +1,20 @@
-import 'react'
-import Navbar from './components/Navbar'
-import { Login, SignUp } from './components/Button'
-import { BiAdjust } from "react-icons/bi";
-function App() {
-  return (
-    <>
-      <div>
-      <Navbar/>
-      </div>
-      <div>
-      <Login/>
-      </div>
-      <div>
-      <SignUp/>
-      </div>
-      <div>
-      <BiAdjust />
-      </div>
-        </>
-  )
-}
+import { useState} from 'react';
 
-export default App
+function App() {
+  
+    const [count, setCount] = useState(0);
+    return (
+        <div>
+          {/* Embedded javascript expressions {} thats are written in curly brackets */}
+            <h1>You clicked {count} times</h1> 
+            <button onClick={() => setCount(count + 1)}>
+                +
+            </button>
+            <button onClick={() => setCount(count - 1)}>
+                -
+            </button>
+        </div>
+    );
+};
+
+export default App;
